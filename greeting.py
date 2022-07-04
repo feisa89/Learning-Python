@@ -1,0 +1,13 @@
+#Latihan program sederhana
+print('Hello World')
+print("Siapakah Namamu? ")
+MyName=input()
+print('Selamat Datang, ' +MyName)
+print('Jumlah huruf dalam Namamu : ')
+print(len(MyName))
+print('Berapakah Usiamu Saat ini? ')
+print('Masukkan Tahun Lahir Kamu : ')
+BirthYear=input()
+MyAge=2022-int(BirthYear)
+print('Usiamu saat ini adalah ' +str(int(MyAge)) +' Tahun')
+print(MyName + ' , Kamu akan berusia ' + str(int(MyAge)+1) +' Tahun Pada Tahun 2023')
